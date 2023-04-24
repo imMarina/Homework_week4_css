@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .block {
+            width: 200px;
+            height: 200px;
+            background-color: #ff00bf;
+
+            position: relative;
+            top: 0;
+            left: 0;
+
+            animation: shape 5s ease-in-out infinite;
+        }
+
+        @keyframes shape {
+            0% {
+                top: 0;
+                left: 0;
+                background-color: #ff00bf;
+            }
+
+            25% {
+                top: 0px;
+                left: 300px;
+                background-color: #3700ff;
+                border-radius: 50%;
+            }
+
+            50% {
+                top: 300px;
+                left: 300px;
+                background-color: #07fcef;
+                border-radius: 0%;
+            }
+
+            75% {
+                top: 300px;
+                left: 0;
+                background-color: #e5ff00;
+                border-radius: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="block"></div>
+</body>
+
+</html>

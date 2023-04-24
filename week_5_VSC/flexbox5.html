@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header,
+        footer {
+            flex: 0 0 content;
+        }
+
+        main {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: row;
+            justify-content: stretch;
+        }
+
+        body {
+            display: flex;
+            flex-flow: column;
+            min-height: 100vh;
+        }
+
+        nav {
+            width: 20vh;
+        }
+
+        aside {}
+
+        section {}
+    </style>
+</head>
+
+<body>
+    <h1>Flexbox🥳</h1>
+    <header class="header">Заголовок</header>
+    <main class="main">
+        <nav class="nav">Меню</nav>
+        <section class="section">Секция</section>
+        <aside>Сбоку</aside>
+    </main>
+    <footer>Футер</footer>
+</body>
+
+</html>

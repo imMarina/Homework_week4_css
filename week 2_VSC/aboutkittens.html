@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1076/1076928.png" type="image/png">
+    <title>About the kittens</title>
+</head>
+
+<body>
+    <h1>Анкета-опросник</h1>
+    <img src="https://www.rd.com/wp-content/uploads/2021/04/GettyImages-10100201-scaled.jpg" alt="Photo of the kittens"
+        width="240" height="160">
+    <form>
+        <fieldset>
+            <legend><b>Персональные данные</b></legend>
+            <div>
+                <label for="petsname">Кличка питомца</label>
+                <input type="text" id="petsname">
+            </div>
+            <div>
+                <label for="ownersname">Имя владельца</label>
+                <input type="text" id="ownersname">
+            </div>
+            <fieldset>
+                <legend><b>Контакты владельца</b></legend>
+                <label for="email">Электронный адрес</label>
+                <input type="email" id="email"><br>
+                <label for="Mobile">Мобильный телефон</label>
+                <input type="tel" id="Mobile">
+            </fieldset>
+        </fieldset>
+
+        <p><b>Выберите породу питомца</b></p>
+        <select name="petskind">
+            <option>Донской сфинкс</option>
+            <option value="2">Мейн кун</option>
+            <option value="3">Русская голубая кошка</option>
+            <option value="4">Сиамская кошка</option>
+            <option value="5">Скоттиш фолд</option>
+        </select>
+
+        <p><b>Пол питомца</b></p>
+        <div>
+            <label for="female">Самка</label>
+            <input type="radio" name="sex" value="f" id="female">
+            <label for="male">Самец</label>
+            <input type="radio" name="sex" value="m" id="male">
+        </div>
+        <p><b>Чем питается</b></p>
+        <div>
+            <input type="checkbox" name="food" value="1" id="check1"><label for="check1">Сухой корм</label><br>
+            <input type="checkbox" name="food" value="2" id="check2"><label for="check2">Влажный корм</label><br>
+            <input type="checkbox" name="food" value="3" id="check3"><label for="check3">Натуральный корм</label>
+        </div>
+        <p><b>Комментарий</b></p>
+        <label for="commentshere"></label>
+        <textarea name="comments" cols="30" rows="5"
+            id="commentshere">Если хотите добавить что-то важное, можно указать здесь</textarea>
+        <p>
+            Можете добавить фотографию питомца <input type="file" id="photo"><label for="photo"></label>
+        </p>
+        <input type="submit" value="Сохранить">
+    </form>
+</body>
+
+</html>

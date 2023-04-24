@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div><input type="text"></div>
+    <div><input type="file"></div>
+    <div><input type="date"></div>
+    <div><input type="checkbox"></div>
+    <div><input type="password"></div>
+
+    <div><textarea rows="10">Здесь вводят много текста</textarea></div>
+    <div>
+        <select name="" id="">
+            <option value="">punkt 1</option>
+            <option value="">punkt 2</option>
+            <option value="">punkt 3</option>
+        </select>
+    </div>
+
+
+    <h1>Registration</h1>
+    <form action="script.ptp (eto servernyi script)">
+        <div>
+            <label for="name">First Name</label>
+            <input type="text" id="name" />
+        </div>
+        <div>
+            <label for="surname">Second Name</label>
+            <input type="text" id="surname" />
+        </div>
+        <div>
+            <label for="login">Create your login</label>
+            <input type="text" id="login" />
+        </div>
+        <fieldset>
+            <legend>Passwords</legend>
+            <div>
+                <label for="pin">Create your password</label>
+                <input type="password" id="pin" />
+            </div>
+            <div>
+                <label for="pin2">Repeat your password</label>
+                <input type="password" id="pin2" />
+            </div>
+        </fieldset>
+
+        <div>
+            <label for="phone">Mobile number</label>
+            <input type="text" id="phone" />
+        </div>
+        <div>
+            <label for="name">Your gender</label><br />
+            <input type="radio" name="sex" value="male" /><span>Male</span><br />
+            <input type="radio" name="sex" value="female" /><span>Female</span>
+        </div>
+        <div><button>Sign up</button></div>
+
+        <div>Pushing a button "sign up"
+            <input type="checkbox">
+            I accept the terms <a href="...">Terms of use</a>
+        </div>
+        <div>
+            <input type="text" name="firstname" placeholder="name"><br>
+            <input type="checkbox" checked="checked" />
+        </div>
+        <p> Как вы относитесь к полетам в космос? </p>
+        <input type="checkbox" name="space" value="1" />
+        Положительно, всегда хотел полететь в космос<br />
+        <input type="checkbox" name="space" value="2" />
+        Безразлично, никогда не думал об этом серьезно <br />
+        <input type="checkbox" name="space" value="3" />
+        Отритцательно, меня с детства отталкивают мысли о космосе <br />
+        <input type="submit" value="Ого. Надпись на кнопке" /> <br />
+        <input type="file"> <br>
+        <input type="hidden"  /><br />
+        <input type="button"><br>
+
+    </form>
+
+    <form>
+        <label for="name">Имя:</label>
+        <input type="text" name="name" id="name" value="Ваше имя" />
+        <label for="comments">Комментарий:</label>
+        <textarea name="comments" id="comments" rows="5" cols="20">Ваш комментарий</textarea>
+        <p>Вы:</p>
+        <input type="radio" name="areyou" value="male" id="man" />
+        <label for="man">Мужчина</label>
+        <input type="radio" name="areyou" value="female" id="woman" />
+        <label for="woman">Женщина</label>
+        <input type="radio" name="areyou" value="neither" id="neither" />
+        <label for="neither">Ни то ни другое</label>
+        <input type="submit" />
+        <input type="reset" />
+    </form>
+
+</body>
+
+</html>

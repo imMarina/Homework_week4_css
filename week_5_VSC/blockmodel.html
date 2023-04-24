@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            border: 1px solid red;
+            display: inline-block;
+            /*width: 100px;
+            height: 24px;*/
+            width: 150px;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+    <!--1 со свойством display: inline - width and height не работают-->
+    <!--2 со свойством display: inline-block - width and height работают, задавть размеры можно-->
+</head>
+
+<body>
+    <!--Блочная модель (используется по умолчанию)-->
+    <h1>Блочная модель</h1>
+    <p>Абзац 1</p>
+    <p style="box-sizing: border-box;">Абзац 2</p>
+    <p>Абзац 3</p>
+
+</body>
+
+</html>
