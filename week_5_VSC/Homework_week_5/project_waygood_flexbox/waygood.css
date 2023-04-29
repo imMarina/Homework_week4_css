@@ -1,0 +1,197 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #050505;
+    background: #FAF5E5;
+}
+
+.header-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 59px;
+    border-bottom: 1px solid #050505;
+}
+
+h1 {
+    width: 40%;
+    height: 11px;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 0.99px;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+a {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.99px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #050505;
+}
+
+.element9,
+.point4,
+.item2 {
+    text-decoration: underline;
+}
+
+.main-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100vw;
+}
+
+.photo1 {
+    width: 50vw;
+    height: 962px;
+    border-bottom: 2px solid black;
+}
+
+.section-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    height: 962px;
+    border-bottom: 2px solid black;
+}
+
+.element1,
+.element5 {
+    font-size: 30px;
+}
+
+.element1 {
+    width: 250px;
+    text-align: center;
+}
+
+.element3 {
+    height: 100px;
+}
+
+.line {
+    width: 40vw;
+    border-bottom: 2px solid #050505;
+}
+
+.element5 {
+    width: 250px;
+    text-align: center;
+}
+
+.element6 {
+    width: 30vw;
+    text-align: center;
+}
+
+.element7 {
+    height: 100px;
+}
+
+.element9 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.photo-element9 {
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+.section-container2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.text-container {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 100px;
+    width: 40vw;
+}
+
+.point1,
+.point4,
+.item2 {
+    height: 13px;
+    font-size: 13px;
+}
+
+.point1 {
+    letter-spacing: 2.08px;
+    text-transform: uppercase;
+}
+
+.point2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 353px;
+    height: 126px;
+    font-size: 59px;
+    line-height: 63px;
+    letter-spacing: 1.8px;
+}
+
+.point3 {
+    width: 379px;
+    height: 68px;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.32px;
+}
+
+.point4 {
+    margin-top: 25px;
+    letter-spacing: 2.08px;
+    text-transform: uppercase;
+}
+
+.photo2 {
+    margin-top: 200px;
+    width: 35vw;
+    height: 739px;
+}
+
+.photo3 {
+    margin-left: 50px;
+    height: 739px;
+}
+
+.text-container2 {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 30vw;
+}
+
+.item1 {
+    width: 470px;
+    height: 203px;
+    font-size: 26px;
+    line-height: 34px;
+    letter-spacing: 0.78px;
+}
+
+.item2 {
+    width: 70px;
+    letter-spacing: 2.08px;
+    text-transform: uppercase;
+}

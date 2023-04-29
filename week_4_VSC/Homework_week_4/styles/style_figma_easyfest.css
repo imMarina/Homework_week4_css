@@ -2,25 +2,24 @@
 
 body {
     position: relative;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    color: #31456A;
-    background: #F6F8F9;
     width: 1620px;
     height: 5055px;
-
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
+    color: #31456A;
+    background: #F6F8F9;
 }
 
 /* Псевдоклассы и псевдоэлементы */
 
-.mainmenu a:hover {
+.main-menu a:hover {
     color: #EFBB03;
 }
 
-.mainmenu a:active {
+.main-menu a:active {
     font-size: 20px;
 }
 
@@ -31,16 +30,15 @@ body {
 
 /* HEADER */
 nav {
-    color: #31456A;
     position: absolute;
+    color: #31456A;
 }
 
-nav.mainmenu {
-
-    width: 1108px;
-    height: 55px;
+nav.main-menu {
     left: 300px;
     top: 30px;
+    width: 1108px;
+    height: 55px;
 }
 
 a {
@@ -77,9 +75,9 @@ a.button {
 
     left: 1103px;
     top: 56px;
+    z-index: 1;
     font-weight: bold;
     color: #31456A;
-    z-index: 1;
 }
 
 /* MAIN */
@@ -99,10 +97,10 @@ h2 {
 }
 
 .title h1 {
-    width: 500px;
-    height: 28px;
     left: 720px;
     top: 448px;
+    width: 500px;
+    height: 28px;
 }
 
 p {
@@ -111,34 +109,34 @@ p {
 }
 
 .title p {
-    width: 245px;
-    height: 59px;
     left: 720px;
     top: 500px;
+    width: 245px;
+    height: 59px;
 }
 
 .description h2 {
-    width: 457px;
-    height: 101px;
     left: 540px;
     top: 802px;
+    width: 457px;
+    height: 101px;
     line-height: 28px;
 }
 
 p.paragraph1 {
-    width: 373px;
-    height: 76px;
     left: 540px;
     top: 927px;
+    width: 373px;
+    height: 76px;
     font-size: 14px;
     font-weight: 500;
 }
 
 p.paragraph2 {
-    width: 331px;
-    height: 19px;
     left: 540px;
     top: 1036px;
+    width: 331px;
+    height: 19px;
     font-size: 14px;
     font-weight: 600;
 }
@@ -146,16 +144,16 @@ p.paragraph2 {
 /* nav.options */
 
 .options h2 {
-    width: 264px;
-    height: 37px;
     left: 588px;
     top: 1260px;
+    width: 264px;
+    height: 37px;
 }
 
 .options p {
+    top: 1350px;
     font-weight: bold;
     font-size: 16px;
-    top: 1350px;
 }
 
 .options a {
@@ -163,225 +161,241 @@ p.paragraph2 {
 }
 
 p.option1 {
-    width: 79px;
     left: 138px;
+    width: 79px;
 }
 
 a.mode1 {
-    width: 118px;
     left: 118px;
     top: 1403px;
+    width: 118px;
 }
 
 a.mode2 {
-    width: 100px;
     left: 127px;
     top: 1432px;
+    width: 100px;
 }
 
 p.option2 {
+    left: 317px;
     width: 80px;
     height: 16px;
-    left: 317px;
 }
 
 a.mode3 {
-    width: 80px;
     left: 317px;
     top: 1403px;
+    width: 80px;
 }
 
 a.mode4 {
-    width: 89px;
     left: 313px;
     top: 1432px;
+    width: 89px;
 }
 
 a.mode5 {
-    width: 137px;
     left: 289px;
     top: 1463px;
+    width: 137px;
 }
 
 a.mode6 {
-    width: 142px;
     left: 286px;
     top: 1494px;
+    width: 142px;
 }
 
 p.option3 {
+    left: 478px;
     width: 133px;
     height: 16px;
-    left: 478px;
 }
 
 a.mode7 {
-    width: 60px;
     left: 515px;
     top: 1403px;
+    width: 60px;
 }
 
 a.mode8 {
-    width: 88px;
     left: 501px;
     top: 1432px;
+    width: 88px;
+
 }
 
 
 a.mode9 {
-    width: 49px;
     left: 520px;
     top: 1461px;
+    width: 49px;
+
 }
 
 p.option4 {
+    left: 693px;
     width: 74px;
     height: 19px;
-    left: 693px;
 }
 
 a.mode10 {
-    width: 66px;
     left: 697px;
     top: 1406px;
+    width: 66px;
 }
 
 a.mode11 {
-    width: 89px;
     left: 685px;
     top: 1434.8px;
+    width: 89px;
+
 }
 
 a.mode12 {
-    width: 137px;
     left: 661px;
     top: 1465.57px;
+    width: 137px;
+
 }
 
 a.mode13 {
-    width: 72px;
     left: 694px;
     top: 1496.34px;
+    width: 72px;
+
 }
 
 p.option5 {
+    left: 881px;
     width: 78px;
     height: 21px;
-    left: 881px;
 }
 
 a.mode14 {
-    width: 80px;
     left: 880px;
     top: 1408px;
+    width: 80px;
+
 }
 
 a.mode15 {
-    width: 144px;
     left: 848px;
     top: 1437px;
+    width: 144px;
 }
 
 p.option6 {
+    left: 1049px;
     width: 66px;
     height: 16px;
-    left: 1049px;
+
 }
 
 a.mode16 {
-    width: 80px;
     left: 1042px;
     top: 1403px;
+    width: 80px;
+
 }
 
 a.mode17 {
-    width: 78px;
     left: 1043px;
     top: 1432px;
+    width: 78px;
+
 }
 
 p.option7 {
+    left: 1172px;
     width: 150px;
     height: 16px;
-    left: 1172px;
+
 }
 
 a.mode18 {
-    width: 142px;
     left: 1176px;
     top: 1403px;
+    width: 142px;
 }
 
 /* section */
 
 .offer h2 {
-    width: 208px;
-    height: 41px;
     left: 255px;
     top: 1660px;
     z-index: 1;
+    width: 208px;
+    height: 41px;
+
 }
 
-p.aboutoffer {
-    width: 341px;
-    height: 57px;
+p.about-offer {
     left: 255px;
     top: 1731px;
-    font-size: 14px;
+    width: 341px;
+    height: 57px;
     z-index: 1;
+    font-size: 14px;
 }
 
 a.button2 {
     left: 299px;
     top: 1830px;
+    z-index: 2;
     font-weight: bold;
     color: #31456A;
-    z-index: 2;
+
 }
 
 .plan h2 {
-    width: 300px;
-    height: 41px;
     left: 823px;
     top: 2165px;
+    width: 300px;
+    height: 41px;
+
 }
 
 p.step1 {
-    width: 188.57px;
-    height: 37px;
     left: 924px;
     top: 2266px;
+    width: 188.57px;
+    height: 37px;
+
 }
 
 p.step2 {
-    width: 227px;
-    height: 40px;
     left: 1024px;
     top: 2410px;
+    width: 227px;
+    height: 40px;
+
 }
 
 p.step3 {
-    width: 239px;
-    height: 28px;
     left: 922px;
     top: 2560px;
+    width: 239px;
+    height: 28px;
+
 }
 
 a.button3 {
     left: 890px;
     top: 2712px;
+    z-index: 2;
     font-weight: bold;
     color: #31456A;
-    z-index: 2;
 }
 
 /* section */
 
 .privilege h2 {
-    width: 253px;
-    height: 38px;
     left: 594px;
     top: 2971px;
+    width: 253px;
+    height: 38px;
 }
 
 p.ability1,
@@ -391,45 +405,44 @@ p.ability3 {
 }
 
 p.ability1 {
+    left: 346px;
     width: 190px;
     height: 45px;
-    left: 346px;
 }
 
 p.ability2 {
+    left: 639px;
     width: 154px;
     height: 18px;
-    left: 639px;
 }
 
 p.ability3 {
+    left: 916px;
     width: 185px;
     height: 27px;
-    left: 916px;
 }
 
 /* section */
 
 .reviews h2 {
-    width: 137px;
-    height: 46px;
     left: 825px;
     top: 3580px;
+    width: 137px;
+    height: 46px;
 }
 
 p.person {
-    width: 65.89px;
-    height: 18.88px;
     left: 905.88px;
     top: 3698.59px;
+    width: 65.89px;
+    height: 18.88px;
     font-size: 16px;
 }
 
 p.rating {
-    width: 100px;
-    left: 906.16px;
     top: 3722.17px;
-    display: flex;
+    left: 906.16px;
+    width: 100px;
     color: #080808;
 }
 
@@ -438,29 +451,30 @@ span#stars {
 }
 
 p.review {
-    width: 427px;
-    height: 127.94px;
     left: 825px;
     top: 3783.06px;
+    width: 427px;
+    height: 127.94px;
+
 }
 
 /* article */
 
 .news h2 {
-    width: 143px;
-    height: 33px;
     left: 680px;
     top: 4043px;
+    width: 143px;
+    height: 33px;
 }
 
 /* footer */
 
 .bottom {
     position: absolute;
-    width: 100%;
-    height: 150px;
     left: 0px;
     top: 4905px;
+    width: 100%;
+    height: 150px;
     background: #4097E3;
 }
 
@@ -473,8 +487,8 @@ a.footer2,
 a.footer3,
 a.footer4,
 a.email,
-p.privacypolicy,
-a.privacypolicy2 {
+p.privacy-policy,
+a.privacy-policy2 {
     color: #FFFFFF;
 }
 
@@ -482,12 +496,12 @@ a.footer1,
 a.footer3,
 a.footer4,
 p.address,
-p.followus {
+p.follow-us {
     top: 20px;
 }
 
 p.address,
-p.followus {
+p.follow-us {
     height: 22px;
     font-size: 12px;
     line-height: 22px;
@@ -502,56 +516,57 @@ a.footer1 {
 
 a.footer2 {
     position: absolute;
-    width: 99px;
-    height: 22.49px;
     left: 181px;
     top: 60px;
+    width: 99px;
+    height: 22.49px;
 }
 
 a.footer3 {
     position: absolute;
+    left: 345px;
     width: 88px;
     height: 22.49px;
-    left: 345px;
+
 }
 
 a.footer4 {
     position: absolute;
+    left: 506px;
     width: 112px;
     height: 22.49px;
-    left: 506px;
 }
 
 p.address {
-    width: 109px;
     left: 698px;
+    width: 109px;
 }
 
 a.email {
-    width: 106px;
-    height: 22px;
     left: 698px;
     top: 60px;
+    width: 106px;
+    height: 22px;
     line-height: 22px;
 }
 
-p.followus {
+p.follow-us {
     position: absolute;
-    width: 98px;
     left: 857px;
+    width: 98px;
 }
 
-p.privacypolicy,
-a.privacypolicy2 {
-    width: 500px;
-    height: 9px;
+p.privacy-policy,
+a.privacy-policy2 {
     left: 181px;
     bottom: 0px;
+    width: 500px;
+    height: 9px;
     font-size: 10px;
     line-height: 9px;
 }
 
-a.privacypolicy2 {
+a.privacy-policy2 {
     text-decoration: underline;
 }
 
@@ -566,53 +581,59 @@ img {
     top: 42px;
 }
 
-#menulogo {
-    width: 200px;
+#menu-logo {
     left: 180px;
     right: 95.22%;
     top: 10px;
     bottom: 1.82%;
     z-index: 1;
+    width: 200px;
+
 }
 
-#leftcircle {
-    width: 500px;
+#left-circle {
     left: 0px;
     top: 0px;
+    width: 500px;
+
 }
 
-#rightcircle {
-    width: 367px;
+#right-circle {
     right: 0px;
     top: 0px;
+    width: 367px;
 }
 
-#pagelogo {
-    width: 712px;
-    height: 293px;
+#page-logo {
     left: 349px;
     top: 170px;
+    width: 712px;
+    height: 293px;
+
 }
 
 #character1 {
-    width: 364px;
-    height: 399px;
     left: 951px;
     top: 198px;
+    width: 364px;
+    height: 399px;
+
 }
 
 #character2 {
-    width: 320px;
-    height: 400px;
     left: 163px;
     top: 680px;
+    width: 320px;
+    height: 400px;
+
 }
 
-#giftbox {
-    width: 426.83px;
-    height: 393.14px;
+#gift-box {
     left: 798px;
     top: 843px;
+    width: 426.83px;
+    height: 393.14px;
+
 }
 
 #button2 {
@@ -621,25 +642,26 @@ img {
     z-index: 1;
 }
 
-#backgroundimage {
-    width: 1160px;
-    height: 477px;
+#background-image {
     left: 140px;
     top: 1544px;
+    width: 1160px;
+    height: 477px;
+
 }
 
 #hands {
-    width: 698px;
-    height: 466px;
     left: 586px;
     top: 1584px;
+    width: 698px;
+    height: 466px;
 }
 
-#phonelogo {
-    width: 158px;
-    height: 65px;
+#phone-logo {
     left: 863px;
     top: 1694px;
+    width: 158px;
+    height: 65px;
 }
 
 #button3 {
@@ -649,39 +671,44 @@ img {
 }
 
 #circle {
-    width: 1074px;
-    height: 1007.33px;
     left: -101px;
     top: 1964px;
+    width: 1074px;
+    height: 1007.33px;
+
 }
 
 #character3 {
-    width: 454.69px;
-    height: 569.05px;
     left: 332.16px;
     top: 2156px;
     z-index: 1;
+    width: 454.69px;
+    height: 569.05px;
+
 }
 
 #number1 {
-    width: 66px;
-    height: 121px;
     left: 828px;
     top: 2245px;
+    width: 66px;
+    height: 121px;
+
 }
 
 #number2 {
-    width: 120px;
-    height: 131px;
     left: 895px;
     top: 2372px;
+    width: 120px;
+    height: 131px;
+
 }
 
 #number3 {
-    width: 74px;
-    height: 132px;
     left: 835px;
     top: 2508px;
+    width: 74px;
+    height: 132px;
+
 }
 
 #icon1,
@@ -691,53 +718,58 @@ img {
 }
 
 #icon1 {
+    left: 378px;
     width: 126px;
     height: 126px;
-    left: 378px;
+
 }
 
 #icon2 {
+    left: 644px;
     width: 135px;
     height: 134px;
-    left: 644px;
+
 }
 
 #icon3 {
+    left: 935px;
     width: 135px;
     height: 134px;
-    left: 935px;
 }
 
 #hands2 {
-    width: 618px;
-    height: 476px;
     left: 118px;
     top: 3506px;
+    width: 618px;
+    height: 476px;
 }
 
-#insidethehands {
-    width: 158px;
-    height: 65px;
+#inside-the-hands {
     left: 370px;
     top: 3630px;
+    width: 158px;
+    height: 65px;
 }
 
 #event1 {
-    width: 400px;
     left: 760px;
     top: 4160px;
+    width: 400px;
+
 }
 
 #event2 {
-    width: 400px;
     left: 350px;
     top: 4160px;
+    width: 400px;
+
 }
 
 #event3 {
-    width: 500px;
     left: 530px;
     top: 4495px;
+    width: 500px;
+
 }
 
 #facebook,
@@ -748,25 +780,29 @@ img {
 }
 
 #facebook {
+    left: 857px;
     width: 15px;
     height: 15px;
-    left: 857px;
+
 }
 
 #vk {
+    left: 890px;
     width: 15px;
     height: 16px;
-    left: 890px;
+
 }
 
 #instagram {
+    left: 921px;
     width: 15px;
     height: 15px;
-    left: 921px;
+
 }
 
 #youtube {
+    left: 953px;
     width: 15px;
     height: 15px;
-    left: 953px;
+
 }
