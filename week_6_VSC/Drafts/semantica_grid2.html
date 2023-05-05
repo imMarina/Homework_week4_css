@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+            background-color: rgb(131, 131, 250);
+            grid-area: header;
+        }
+
+        .sidebar {
+            background-color: rgb(235, 153, 153);
+            grid-area: sidebar;
+        }
+
+        .main {
+            background-color: rgb(201, 250, 152);
+            grid-area: main;
+        }
+
+        .footer {
+            background-color: rgb(252, 151, 238);
+            grid-area: footer;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            grid-template-rows: 10% 1fr 10%;
+            height: 90vh;
+            grid-template-areas: "header header header header"
+                "sidebar main main main"
+                "footer footer footer footer";
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Гриды</h1>
+    <div class="container">
+        <header class="header">Header</header>
+        <aside class="sidebar">Sidebar</aside>
+        <main class="main">Main</main>
+        <footer class="footer">Footer</footer>
+    </div>
+
+</body>
+
+</html>
