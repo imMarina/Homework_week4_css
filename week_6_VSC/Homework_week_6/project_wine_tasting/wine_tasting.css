@@ -1,4 +1,6 @@
 body {
+    display: grid;
+    grid-template-rows: 900px 2661px 220px;
     width: 100vw;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -6,6 +8,19 @@ body {
     color: #FFFFFF;
     background: #282828;
 }
+
+header {
+    grid-row: 1/2;
+}
+
+main {
+    grid-row: 2/3;
+}
+
+footer {
+    grid-row: 3/4;
+}
+
 
 .header {
     display: grid;
@@ -95,6 +110,23 @@ span {
     top: 15px;
 }
 
+main {
+    display: grid;
+    grid-template-rows: 856px 1038px 767px;
+}
+
+.main-grid-1 {
+    grid-row: 1/2;
+}
+
+.main-grid-2 {
+    grid-row: 2/3;
+}
+
+.main-grid-3 {
+    grid-row: 3/4;
+}
+
 .section1 {
     display: grid;
     grid-template-columns: 405px 1110px 405px;
@@ -144,7 +176,7 @@ span {
 
 .section2 {
     display: grid;
-    grid-template-columns: 405px 2fr 1fr 1fr 405px;
+    grid-template-columns: 405px 1fr 1fr 405px;
     grid-template-rows: 80px 40px 540px 300px 80px;
     column-gap: 30px;
     height: 1038px;
@@ -226,21 +258,12 @@ td {
 }
 
 .section2__elem2 {
-    grid-area: 3/3/4/5;
-    justify-self: start;
-    font-family: 'Playfair Display', serif;
-    font-size: 36px;
-    line-height: 54px;
+    grid-area: 3/3/5/4;
 }
 
-.section2__elem3 {
-    grid-area: 4/3/5/4;
-    justify-self: end;
-    font-size: 14px;
-}
-
-.section2__elem4 {
-    grid-area: 4/4/5/5;
+.section2__img1 {
+    margin-top: 20px;
+    margin-right: 25px;
 }
 
 .section3 {
