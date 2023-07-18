@@ -36,10 +36,11 @@ console.log(multiply(x, y));
 let firstName = 'Alice';
 
 function greet(firstName) {
-	return console.log(firstName);
+	console.log(firstName);
 }
 
 greet(firstName);
+
 
 //Задание 5
 // Напишите функцию calculateArea, которая принимает два параметра width и height, вычисляет площадь прямоугольника и выводит в консоль результат.
@@ -164,12 +165,12 @@ findAnimal();
 const lastOlympicsYear = 2021;
 let thisYear = 2023;
 
-function calculateYearsSinceLastOlympics(howManyYears) {
-	return howManyYears = thisYear - lastOlympicsYear;
+function calculateYearsSinceLastOlympics(thisYear,lastOlympicsYear) {
+	return  thisYear - lastOlympicsYear;
 }
 
 console.log(
-	'С момента летней олимпиады в Токио прошло ' + calculateYearsSinceLastOlympics() + ' года',
+	'С момента летней олимпиады в Токио прошло ' + calculateYearsSinceLastOlympics(thisYear,lastOlympicsYear) + ' года',
 );
 
 //Задание 16
@@ -200,14 +201,15 @@ calculateMyAge();
 
 // first example
 function pow(firstNum, secondNum) {
-	resultNum = firstNum ** secondNum;
+	let resultNum = firstNum ** secondNum;
 	return console.log("Результат: " + resultNum);
 }
 pow(5, 3);
 
+
 // second example
 function pow2(a2, b2) {
-	result2 = Math.pow(a2, b2);
+	let result2 = Math.pow(a2, b2);
 	return console.log("Результат: " + result2);
 }
 
