@@ -20,18 +20,18 @@
         }
 
         .slider-box {
-            width: 700px;
+            width: 712px;
             overflow: hidden;
         }
 
         .slider-line {
             display: flex;
-            width: 1200px;
+
             transition: all 1s;
         }
         
         .slider-img {
-            width: 700px;
+            width: 712px;
         }
 
         div .btn {
@@ -44,21 +44,22 @@
 
 
   <body class="bg-light text-dark">
-    <div class="container m-2">
+    <div class="container mt-5">
         <div class="row">
 
-            <div class="col">
+            <div class="col-2">
                 <div class="btn-previous btn bg-dark text-light fs-5 fw-bold">Previous</div>
-                <div class="btn-next btn bg-dark text-light fs-5 fw-bold">Next</div>
             </div>
 
-            <div class="slider-box col">
-
+            <div id="slider-box" class="slider-box col-6">
                 <div class="slider-line">
                     <img class="slider-img" src="./img/nature_1.jpg" alt="Nature">
                     <img class="slider-img" src="./img/nature_2.jpg" alt="Nature">
                 </div>
+            </div>
 
+            <div class="col-2">
+                <div class="btn-next btn bg-dark text-light fs-5 fw-bold">Next</div>
             </div>
 
         </div> 

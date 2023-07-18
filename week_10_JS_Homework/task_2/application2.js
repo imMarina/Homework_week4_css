@@ -19,7 +19,7 @@ btnPrev.addEventListener('click', prevSlide);
 function nextSlide() {
     offset++;
 
-    if (offset >= sliderImg.lenght) {
+    if (offset >= sliderImg.length) {
         offset = 0;
     }
    
@@ -30,14 +30,13 @@ function prevSlide() {
     offset--;
 
     if (offset < 0) {
-        offset = sliderImg.lenght - 1;
+        offset = sliderImg.length - 1;
     }
    
     rollSlider();
 }
 
+
 function rollSlider() {
     sliderLine.style.transform = `translateX(${-offset * sliderWidth}px)`;
 }
-
-
