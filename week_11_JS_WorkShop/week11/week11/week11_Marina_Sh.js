@@ -161,11 +161,11 @@ document.querySelector('.b-11').onclick = makeEleven;
 const div12 = document.querySelector('#practicum12');
 
 function makeTwelve() {
-	div12.style.width = '400px'; 
-	div12.style.height = '200px'; 
-}
+	// div12.style.width = '400px'; 
+	// div12.style.height = '200px'; 
 
-// div12.classList.toggle("practicum12");
+    div12.classList.toggle("large");
+}
 
 
 //Задание 13
@@ -238,14 +238,9 @@ document.querySelector('.b-17').onclick = makeSeventeen;
 
 
 const div18 = document.getElementById('practicum18');
-
-
 function makeEighteen() {
-    div18.classList.add('active');
+    div18.classList.toggle('active');
 }
-
-// div18.classList.toggle('active');
-
 document.querySelector('.b-18').onclick = makeEighteen;
 
 

@@ -116,7 +116,7 @@ div.section {
 	margin-top: 20px;
 }
 
-.resizeable {
+.resizable {
 	background-color: #3f8efc;
 	width: 200px;
 	height: 100px;
@@ -124,7 +124,7 @@ div.section {
 	cursor: pointer;
 }
 
-.resizeable.large {
+.resizable.large {
 	background-color: #33c3f0;
 	width: 400px;
 	height: 200px;
