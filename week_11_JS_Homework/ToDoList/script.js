@@ -12,15 +12,27 @@ function createTask() {
 	let newTaskList = document.createElement('li');
 	newTaskList.textContent = inputTask.value;
     
+  newTaskList.className = 'list-group-item','text-dark', 'text-opacity-75', 'd-flex', 'justify-content-between';
 	list.append(newTaskList);   
     inputTask.value = '';
 }
-document.querySelector('#button').onclick = createTask;
+
+pushButton.addEventListener('click', createTask);
+// document.querySelector('#button').onclick = createTask;
 
 
 // 3. Creating a Function checkTask()
+
 list.addEventListener('click', function(ev) {
     if (ev.target.tagName === 'LI') {
       ev.target.classList.toggle('completed');
     }
   }, false);
+
+
+/* Second way (when there is just tag <li></li>)
+function checkTask(event) {
+  event.target.classList.toggle('completed');
+}
+list.addEventListener('click', checkTask);
+*/
